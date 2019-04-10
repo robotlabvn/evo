@@ -64,6 +64,9 @@ pip install . --upgrade --no-binary evo
 ```
 
 ### Dependencies
+**matplot**
+` python3 -m pip install -U matplotlib --user`
+
 
 **Python packages**
 
@@ -72,6 +75,8 @@ evo has the following dependencies that are ***automatically resolved*** during 
 *numpy, matplotlib, scipy, pandas, seaborn, natsort, argcomplete, colorama, pygments, enum34 (only Python 2.7)*
 
 **PyQt5 / PyQt4 (optional)**
+You must intall the package PyQT5
+`pip3 install PyQt5`
 
 PyQt5 will give you the enhanced GUI for plot figures from the "*Qt5Agg*" matplotlib backend (otherwise: "*TkAgg*"). If PyQt5 is already installed when installing this package, it will be used as a default (see `evo_config show`). To change the plot backend afterwards, run `evo_config set plot_backend Qt5Agg`. PyQt4 can be set equivalently.
 
